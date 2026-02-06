@@ -61,7 +61,6 @@ h2 {
 /* Login form animation */
 .login-form {
     display: none;
-    animation: fadeIn 0.3s ease-in-out;
 }
 
 .login-form.active {
