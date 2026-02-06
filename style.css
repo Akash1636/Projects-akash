@@ -15,7 +15,7 @@ body {
     width: 100%;
     max-width: 400px;
     padding: 20px;
-    margin: 60px auto;   /* top spacing + horizontal centering */
+    /*margin: 60px auto;    top spacing + horizontal centering */
 }
 
 .login-box {
