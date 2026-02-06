@@ -8,9 +8,6 @@ body {
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #8a2be2 0%, #ffffff 100%);
     min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /* Center container safely (works with header/navbar) */
