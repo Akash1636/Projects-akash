@@ -10,50 +10,6 @@
 
     <!-- Main stylesheet -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- Page transition animation -->
-    <style>
-        /* Center the login system */
-    body.login-page {
-        min-height: 100vh;
-        margin: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: #f4f4f6; /* optional */
-    }    
-        /* Page fade-in */
-        body {
-            opacity: 0;
-            animation: pageFade 0.6s ease-in-out forwards;
-        }
-
-        @keyframes pageFade {
-            from {
-                opacity: 0;
-                transform: translateY(10px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* Smooth form switching */
-        .login-form {
-            animation: formFade 0.35s ease-in-out;
-        }
-
-        @keyframes formFade {
-            from {
-                opacity: 0;
-                transform: translateY(8px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
     </style>
 </head>
 
