@@ -147,7 +147,3 @@ h2 {
         font-size: 22px;
     }
 }
-/* Hide navbar on login page */
-.login-page header {
-    display: none;
-}
